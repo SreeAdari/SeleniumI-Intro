@@ -1,0 +1,227 @@
+CSS Selectors:
+--------------------
+
+CSS stands for case cading style sheet 
+CSS slectors are used to target to the HTMl ele,ent on webpage 
+
+syntax:
+
+tagname[Attribute='value']
+
+input[id='user_name']
+
+-----------------------------------------------
+
+Select By ID:  (#)
+
+Webelement has an ID attribute we can use the ID attribute
+
+syntax:
+
+tagname#elelmentID
+
+Eg: input#first_name
+
+( or )
+
+#elementID
+#first_name
+-----------------------------------------------
+
+Select By class:  (.)
+
+Webelement has an class attribute we can use the class attribute
+
+syntax:
+
+tagname.elelmentID
+
+Eg: input.first_name
+
+( or )
+
+.elementID
+.first_name
+-----------------------------------------------
+
+CSS selector using Other webelement attributes 
+
+Ex: type , placeholder , value
+
+input[type='text']
+input[placeholder='username']
+input[value='password']
+
+----------------------------------------------------
+
+CSS selector using mix of webelement attributes 
+
+tagname#IdAttribute[Attribute='value']
+tagname.ClassAttribute[Attribute='value']
+
+Ex : input#email[placeholder='email address'][type='text']
+
+-------------------------------------------------------------------
+
+Css selector Sub-String :
+--------------------------
+The 3 inmportent specical characters in CSS Sub-string are :
+
+^ - prefix of the text
+$ - suffix of the text
+* - sub-string of the text
+
+^ -- input[name^='user[p']
+$ -- input[name$='_code']
+* -- input[name*='al_co']
+
+-----------------------------------------------------------------------
+
+Finding CHILD or SUBCHILD elements 
+
+Direct Child
+-------------
+
+Child combinator (>) is used to select direct child 
+
+Syntax : tagname[Attribute='value']>tagname[attribute='value']
+Eg: select#country>option[value='AU']
+
+Child or subchild 
+--------------------
+Descendante combninator () is used select child orr subchild 
+
+syntax : tagname[Attribute='value'] tagname[attribute='value']
+Eg: form#deorg_form div
+
+---------------------------------------------------------------------------------
+
+CSS selector - NEXT SIBLING
+
+.siibling elements are located using + operator 
+.Adjecnt sibling combinator (+) separtes two CSS selectors and matches the second webelement only if it 
+immidialtly follows the first webelement and both are the child of same parent webelement 
+
+Syntax : tagname[Attribute='value']+tagname[attribute='value']
+Eg: div.form_group+div>input
+
+---------------------------------------------
+
+CSS PSEUDO classes -- First-chiild , Last-child, Nth-child, Nth-last-child
+
+first-child -- Returns first element from the group of sibling elements
+
+last-child -- Returns last element from the group of sibling elements
+
+nth-child() -- Returns elements based on their position in a group of sibling 
+
+nth-last-child() -- Returns elements based on their position among a group of siblings, counting from the end 
+
+
+Eg: select#jobrole>:first-child ( or ) select#jobrole :first-child
+
+Eg: select#jobrole :last-child
+
+Eg: select#jobrole :nth-child(3)   --> count from top
+
+Eg: select#jobrole :nth-last-child(2) ---> count from bottom
+
+---------------------------------------------------------------------------------------
+
+
+first-of-type
+last-of-type
+nth-of-type()
+
+Eg : form#deo_form>input:first-of-type
+Eg : form#deo_form>input:last-of-type
+Eg : form#deo_form>input:nth-of-type(2)
+
+------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------
+
+
+
+
+ 

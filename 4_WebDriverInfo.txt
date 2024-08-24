@@ -1,0 +1,8 @@
+WebDriver:
+
+WebDriver driver = new ChromeDriver();
+
+
+WebDriver is an interface , all the clasess like chromedriver, Firefoxdriver and edgedriver are implementing classes that implement the webdriver interface
+
+

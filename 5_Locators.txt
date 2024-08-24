@@ -1,0 +1,155 @@
+Locators:
+==============
+
+id
+name
+link text
+partial link text
+class name
+tag name
+xpath
+css selector
+
+Relative Locators:
+=======================
+
+selenium 4 brings the relative locators
+
+above
+below
+toLeftOf
+toRightf
+near
+
+add the selenium 4 library
+
+if we don'thave any unique webelement to find then we can move to relative locators
+
+xpath:
+==========
+1.XML stands for XML path language 
+2.Xpath is used to find the location of any element on a webpage using HTML dom structure
+3.Xpath is used to navigate nodes in any XMl
+
+xpath syntax :
+-----------------------
+
+//tagname[@Attribte='value']
+
+----------------------------------------------
+
+Absolute / Relative
+
+Absolute:
+----------
+It conatains the complete path from the root element 
+Absolur xpath starts with single forword slah (/)
+Drawback: Any slight change in DOM makes xpath is invalid 
+
+EX :  /html/body/div//div[2]/div/input
+
+Relative:
+--------------
+Relative xpath statrs from the mid of the HTML DOM strucutre 
+It begins with the double forwrad slash (//)
+It is less brittle
+
+Ex : //input[@user='username']
+
+
+===============================================
+starts-with
+----------------
+
+1.starts with function used to identify the dynamic webelement 
+2.we can match the starting value of webelement which remains static
+Eg: ID = session3432335 , session43263724
+3.we can find the element whose attribute value is static
+
+syntax: //input[starts-with(@Attribute,'value')]
+
+==========================================================
+
+contains:
+-------------
+1."contains" function is used to find the dynamic web element 
+2.We can provide partial attribue value to provide the webelment 
+
+syntax: //input[contains(@Attribute,'value')]
+
+=============================================================
+text()
+--------------
+text() is used to find the element with exact text match 
+
+syntax : //tagname[text()='ActualText']
+
+========================================
+
+AND & OR
+-------------
+
+If we want use more that two attributes to find element on webpage 
+
+syntax :
+
+//tagname[@attribute='value' and @attribute='value']
+//tagname[@attribute='value' or @attribute='value']
+
+//input[@type='text' and @data-test='username']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

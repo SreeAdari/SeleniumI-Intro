@@ -1,0 +1,115 @@
+Maven:
+================
+
+Maven is an dependecy management build tool that utilize to have dependecy downoload automatically and configure available in 
+development environment.
+
+In Eclispe Maven is there by default in preferences 
+
+Eclipse -- Window --Preferences ---Maven
+
+download maven -- maven download apache maven
+
+https://maven.apache.org/download.cgi?.
+
+Create folder in c drive as Maven and paste the maven file and unzip
+
+set up maven home
+===========================
+
+C:\Maven\apache-maven-3.9.6
+
+Window -- Environment variables -- system variable -- New variable --  variable name as MAVEN_HOME and variable values as 
+C:\Maven\apache-maven-3.9.6 --- ok
+
+Set up path
+===============================
+
+system variable -- path -- edit --- new 
+C:\Maven\apache-maven-3.9.6\bin --- ok
+( or )
+%MAVEN_HOME%\bin
+
+
+
+cmd promt :
+
+mvn --version
+
+=====================================================
+
+
+Eclispe --- File -- New --- project -- Maven -- Select Maven project --use default--  type (maven-archetype--quickstart ) --- choose 1.1 or 1.4 --- next
+
+grp id -- com.automation
+arti id -- SeleniumTraining
+
+===============================================================
+
+Packages:
+============
+
+src/main/java        --- Common functionality or utilities , java files
+src/main/resources   --- External files
+src/test/java        --- Test cases goes to this folder
+src/test/resouces    --- Excel files , css fiels gos to this folder
+
+Change JRE System Library
+
+Project -- JRE system library -- Build path -- configure build path -- Edit -- Alternate JRE -- OK
+
+
+pom.xml 
+==============
+
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.automation</groupId>
+  <artifactId>SeleniumTraining</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
+
+</project>
+
+
+-------------------------------------------
+
+https://mvnrepository.com/
+
+selenium-java
+
+for format ---- cntrl shift + f
+
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.21.0</version>
+</dependency>
+
+=======================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

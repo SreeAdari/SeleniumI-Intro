@@ -1,0 +1,58 @@
+github
+-------
+
+srinuadari201@gmail.com
+Sree@8186
+
+-----------------
+
+Click on profie (right side icon) --? Your Repositories --> New --> repo name -- CucumberHybridFramework  
+---> add a Readme file --- > CreateRepository
+
+--------------------------------------------------------
+
+download git 
+
+google :  download git --> 1st link -- windows 64 bit
+
+-------------------
+
+-- Create a folder in Desktop or C: folder  (LocalRepos)
+
+-- open that folder and click - Open git bash here 
+
+-- initilize the git repo : git init
+-- register your self: git config --global user.name "srinu"
+                     : git config --global user.email "srinuadari201@gmail.com"
+
+--------------------------------
+
+clone the git hub repo to local repo : Open git hub.com copy the code (green color box)
+
+paste it into the git bash: git clone https://github.com/SreeAdari/CucumberHybridFramework.git
+
+----------------
+
+go to original folder and copy inside project files and paste into local repo folder
+
+git status (It will show all the files in red color and to add)
+
+git add . (files needs to move to staging area)
+
+git status
+
+git commit -m "CucumberHybridFramework" (staging area to commit)
+
+git status 
+
+git push origin main (pusing code to main branch)
+
+
+
+
+ 
+
+
+
+
+

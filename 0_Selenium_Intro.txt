@@ -1,0 +1,87 @@
+Introduction to Selenium :
+============================================
+
+1.Selenium is an open source test Automation tool
+2.key components of selenium are Selenium WebDriver, Selenium IDE,Selenium Grid
+3.Exclusively used for testing Web Applications on multiple browsers like Firefox,chrome,IE,Edge
+4.Selenium supports multiple operatig systems like Windows, Macos,Liinux
+5.Selenium supports multiple programming langauges like Java,Python,C#,Javascript,Ruby  
+
+Selenium Archtecture:
+===============================
+Selenium client Library<------->JSON protocol over http <---------->Browser drivers<---------->Real browsers 
+Java, python, ruby                                                 Chrome , Edge            Chrome , Edge 
+
+Install Java:
+=================
+Install java and configure java path
+Install IDE - Eclipse 
+Create New java project
+Download and configure selenium jars
+Download and configure browser driver
+Create test script and execute
+
+---> Download java --> java SE downloads --->JDK Download --->windows 64 bit---> Download exe file
+--->c drive -- java folder --> jdk ----- cmnd prompt --> java -version
+
+setting up path :: This PC--->Properties--->Advanced sytem settings ---> Environment variables -->system variables -->path-->Edit--> 
+(C:\programfiles\java\jdk-14.0\bin -- copy this path) ---> New --> paste the path--OK
+
+setting up home path :: This PC--->Properties--->Advanced sytem settings ---> Environment variables -->system variables -->NEW--
+Variable name -- JAVA_HOME , varibale value -- C:\programfiles\java\jdk-14--->ok
+
+Install Eclipse:
+=======================
+Eclipse download 
+Eclipse download link
+Download packages --Eclipse IDE for java developers, download 64 bit -- download
+copy downloaded file in C drive -- Extract all the files --> launch eclipse.exe
+
+Create the folder in C drive --> Eclipse workspace --> and launch the application
+
+copy Eclipse folder under c drive inside extraxt file and paste it on c drive it will have eclipse folder and delete .zip folder
+===========================================================
+Create java project 
+
+Open IDE
+create New java project----- JavaDemo
+create package under src folder -->com.demo
+create class under package folder -->AutomationDemo
+
+============================================================
+Selenium standlone Jar:
+
+Dowload webdriver --> downloads-selenium
+Selenium server grid -->latest stable version--3.141.59 -->click and download jar
+
+Open Eclipse IDE:
+
+right click on project -->build path--libraries-->classpath-->Add External jars
+
+================================================================================
+
+Download browser driver:
+===========================
+
+https://www.selenium.dev/downloads/
+
+https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+download chrome driver -
+
+note: download chrome driver based on chrome version
+
+Extract chrome driver download folder 
+
+copy chromedriver.exe and create folder as browser driver folder under c drive  and copy chromedriver.exe 
+
+
+
+
+ 
+
+
+
+
+
+ 

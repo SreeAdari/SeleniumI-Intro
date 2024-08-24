@@ -1,0 +1,12 @@
+PostMan is an API (Application Programming Interface) development tool which helps build, test and modify the API's
+
+It has varius types of HTTP requests 
+
+GET    - 200 ok success code   - Get the information from the server
+POST   - 201 Created           - Post the information to the server
+PUT    - 200 ok success code   - update the information (update all the attributes available)
+PATCH  - 200 ok success code   - update the information (update the nessasary attribute)
+DELETE - 200 ok success code   - delete the information (using with id we can delete)
+
+
+Autorization: for Security purpose 

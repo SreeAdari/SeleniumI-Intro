@@ -1,0 +1,28 @@
+Basic Methods in WebDriver Interface:
+-----------------------------------------
+
+get(jav.lang.String url): Load a new webage in the current browser window.   (Return type -- String URL)
+
+manage(): Gets the option interface.
+
+getCurrentUrl(): Get the string representing the current URL that browser is looking at.
+
+getTitle(): The title of the current page.   ( Return type -- title of the current page )
+
+getPageSource(): Get the source of the last loaded page. 
+
+navigate(): Navigate to a given URL.
+
+quit(): Quits the driver, closing every associated window.   (Return type -- void)
+
+close(): Close the current window , quitting the browser if it's the last window currently open. (Return type -- void)
+
+getWindowHandle(): Return an opaque handle to thiis window that uniquely identifies with in this driver instance  (Return type -- String)
+
+getWindowHandles(): Return a set of window handles which can be used to interface over all open windows of this webdriver interface. (Return type -- set of String -- Set<String>)
+
+switchTo(): Send future commands to a different frame or window.
+
+findElement(By by): Find the first Webelement using given method.   (return type -- WebElement)
+
+findElements(By by): Find all elements with in the current page using a given mechanism.  (Return type -- list of webelements -- List<WebElement>)

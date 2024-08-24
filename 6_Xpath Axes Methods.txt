@@ -1,0 +1,122 @@
+
+It is used in locating node relative to that node in the tree
+
+Parent, Child, Self
+=================================
+
+Parent : selects the parent of current node
+xpath : //tagname[@Attribute='value']//parent::tagname
+
+Child : selects the children of current node
+xpath : //tagname[@Attribute='value']//child::tagname
+
+self : selects the current node
+xpath : //tagname[@Attribute='value']//self::tagname
+
+
+parent and child -- > not in same level 
+
+
+---------------------------------------------------------------------------------------------
+
+Descendant and Descendant-or-self
+----------------------------------------
+
+Descendant:
+
+It selects all of the descendants ( children and grand children ) of current node 
+
+xpath: //tagname[@Attribute='value']//descendant::tagname
+
+Descendant-or-self:
+
+It will select the current node also
+
+xpath: //tagname[@Attribute='value']////descendant-or-self
+
+
+------------------------------------------------------------------------------------------------
+
+Ancsestor and Ancestor-or-self
+---------------------------------
+
+ancestor:
+
+It selects all of the ancestors (parent , grandparent) of current node 
+
+xpath:
+-------
+
+//tagname[@Attribute='value']//ancestor::tagname
+
+ancestor-or-self:
+
+It selects self tag also 
+
+//tagname[@Attribute='value']//ancestor-or-self::tagname
+
+
+-------------------------------------------------------------------------------------------
+
+following and following-sibling
+-----------------------------------
+
+following:
+------------
+It selects all the nodes that appears after the current node
+
+xpath : //tagname[@Attribute='value']//following::tagname
+
+
+following-sibling:
+------------------
+It selects all the nodes that have the same parent as the current node and appear after the current node 
+
+xpath:
+
+//tagname //tagname[@Attribute='value']//following-sibling::tagname
+
+========================================================================================================================
+
+preceding and preceding-sibling:
+-------------------------------------
+
+preceding:
+------------
+It selects all the nodes that appears before the current node
+
+xpath : //tagname[@Attribute='value']//preceding::tagname
+
+
+preceding-sibling:
+------------------
+It selects all the nodes that have the same parent as the current node and appear before the current node 
+
+xpath:
+
+//tagname //tagname[@Attribute='value']//preceding-sibling::tagname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
